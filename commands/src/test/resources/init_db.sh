@@ -1,0 +1,1 @@
+mysql --user=admin --password=admin dbname<init_db.sql
