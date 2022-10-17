@@ -29,7 +29,7 @@ public class IntegrationTest {
           .forStatusCode(200)
           .forResponsePredicate(response -> response.equals("healthy"));
 
-  private static final WaitStrategy logWaitStrategy = Wait.forLogMessage(".*now I'm healthy.*", 1);
+  private static final WaitStrategy logWaitStrategy = Wait.forLogMessage(".*Started.*", 1);
 
   private static final WaitStrategy dockerHealthCheckWaitStrategy = Wait.forHealthcheck();
 

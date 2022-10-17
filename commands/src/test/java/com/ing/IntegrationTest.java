@@ -25,7 +25,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Testcontainers
-@DirtiesContext
 public class IntegrationTest {
   public static final String MYSQL_IMAGE = "mysql:5.7.39";
 
