@@ -28,3 +28,5 @@ Each project builds upon the previous one and introduces small changes to either
 Run `mvn clean install -DskipTests` to get all dependencies and skip running the tests.
 
 After that use your favorite IDE to explore the projects.
+
+**The ppt that I use to start the presentation can also be found in the `/docs` directory.**
